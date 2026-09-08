@@ -17,7 +17,7 @@ api_key = os.getenv("API_KEY")
 ```
 
 
-## Run with your local model
+## Install Required libs & Run with your local model
 
 From the repository root, activate your Python 3.11 environment and install dependencies:
 
@@ -25,6 +25,8 @@ From the repository root, activate your Python 3.11 environment and install depe
 cd ai-llm-audio-bot
 pip install -r requirements.txt
 ```
+
+For UI Generation we are using Streamlit Python Library
 
 The default model is `qwen3.5:4b-q4_K_M`, served at `http://localhost:11434`. If Ollama is already running with this model installed, no additional model setup is needed. Otherwise, install [Ollama](https://ollama.com/download), start it, and download the model:
 
