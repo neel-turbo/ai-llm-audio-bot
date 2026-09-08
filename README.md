@@ -1,4 +1,3 @@
-# ai-llm-audio-bot
 # Intelligent Voice Customer Service Assistant
 
 A Streamlit customer service assistant using **Qwen3.5 4B locally through Ollama** for chat and conversation analysis. It supports customer service and lead generation prompts, text input, and voice interaction.
