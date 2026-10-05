@@ -2,6 +2,38 @@
 
 A Streamlit customer service assistant using **Qwen3.5 4B locally through Ollama** for chat and conversation analysis. It supports customer service and lead generation prompts, text input, and voice interaction.
 
+## Screenshots
+
+### Voice interaction and settings
+
+Record audio or upload a WAV/MP3 file, adjust the recording duration, and choose Customer Service or Lead Generation mode.
+
+![Voice interaction screen with recording, audio upload, and mode settings](project-screen-shots/audio-processing-llm-1.png)
+
+### Audio recording and transcription
+
+Play back recorded audio, view its waveform, and read the transcription.
+
+![Recorded audio with playback controls, waveform, and transcription](project-screen-shots/audio-processing-llm-2.png)
+
+### AI voice response
+
+The assistant responds to the transcribed question with text and speech playback.
+
+![Transcribed customer question with an AI response and speech playback](project-screen-shots/audio-processing-llm-3.png)
+
+### Text interaction
+
+Send a typed question and optionally enable **Read response aloud**.
+
+![Text interaction form with optional speech output and an AI response](project-screen-shots/audio-processing-llm-4.png)
+
+### Conversation analysis
+
+Analyze the conversation for customer needs, emotional state, key information, and suggested follow-up actions.
+
+![Conversation analysis showing customer needs, emotional state, and key information](project-screen-shots/audio-processing-llm-5.png)
+
 
 ## Create Local Python Env
 
